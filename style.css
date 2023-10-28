@@ -6,7 +6,15 @@
     margin: 0;
 }
 
-.header {
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +61,7 @@
 .hero {
     box-sizing: border-box;
     gap: 50px;
-    padding: 6rem 6rem 0rem 6rem;
+    padding: 6rem 0rem 0rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,10 +69,13 @@
 }
 
 .main {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding-inline: 20px;
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .btn-div {
@@ -85,6 +96,7 @@
 }
 
 .hero-text {
+    width: 39% !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,9 +206,11 @@
 }
 
 .iphones {
-    gap: 65px 70px;
+    width: 100%;
+    gap: 65px 0px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
+
 }
 
 .hero5 {
@@ -207,6 +221,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 35px;
+    width: 100%;
 }
 
 .cards,
@@ -261,3 +276,371 @@
     width: 250px;
 }
 
+.hero-left,
+.hero-right {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero6 {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2f2f2;
+    padding-bottom: 19rem;
+    padding: 15px;
+}
+
+.bothside {
+    box-sizing: border-box;
+    padding: 30px 100px;
+    display: flex;
+    margin: 25px 50px;
+    align-items: center;
+    justify-content: space-around;
+    background: #010028;
+    width: 95%;
+}
+
+.bothside img {
+    width: 100%;
+}
+
+.card {
+    height: 100vh;
+    box-sizing: border-box;
+    width: 100%;
+    background: white;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.card h1 {
+    font-size: 260%;
+    width: 52%;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 21px;
+}
+
+.company {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 65px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+
+.comp {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comp p {
+    text-align: center;
+    width: 130px;
+}
+
+.foot-card {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.small-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 46px 50px;
+    padding-bottom: 0px;
+    margin: 12px;
+    background: white;
+    width: 592px;
+    gap: 15px;
+    overflow: hidden;
+    margin-inline: 12px;
+    height: 110vh;
+}
+
+.card2 {
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    /* gap: 15px; */
+    flex-wrap: wrap;
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.magSafe {
+    text-align: center;
+    width: 100% !important;
+}
+
+.card-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card-main2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.card-main2>.card-right {
+    padding: 40px;
+}
+
+.card>.card-main {
+    width: 100%;
+    height: inherit;
+}
+
+.slope {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slope p {
+    width: 200px;
+    text-align: center;
+}
+
+.slop1 img {
+    width: 20%;
+}
+
+.slop1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-card2 {
+    padding-top: 50px;
+    gap: 16px !important;
+    padding-bottom: 0;
+    justify-content: start;
+    height: fit-content;
+}
+
+.card-main3 {
+    justify-content: space-evenly;
+}
+
+.wid {
+    width: 30%;
+}
+
+.row3 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 117%;
+}
+
+
+
+.imgsc2 {
+    width: 20% !important;
+}
+
+.row3img>img {
+    border-radius: 15px;
+}
+
+#sc,
+#sc1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sctext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+#pink {
+    height: 100%;
+    width: 100%;
+}
+
+#p1 {
+    height: 1200px;
+    width: 50%;
+}
+
+.row3n1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 {
+    border-radius: 15px;
+}
+
+#row-card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+#row-card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.footer-1 {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.fcrow {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 30px;
+}
+
+.col {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+}
+
+hr {
+    color: #d5d5da;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-3>span {
+    display: flex;
+    gap: 20px;
+}
+
+.divident {
+    height: 17px;
+    width: 5px;
+    border-left: 2px solid grey;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .small-card,
+    .samll-card2 {
+        width: 100% !important;
+        border-radius: 15px;
+        height: 50vh !important;
+        padding-inline: 0;
+        min-height: 12vh !important;
+    }
+
+    .footer-1 {
+        grid-template-columns: 50% 50%;
+        grid-row-gap: 38px;
+    }
+
+    .main {
+        width: 100%;
+        padding-inline: 0;
+    }
+    body{
+        align-items: center;
+        width: auto;
+    }
+    .pngcard{
+        padding: 0 !important;
+        height: 10vh !important;
+    }
+
+    .disp{
+        display: none;
+    }
+    .company{
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 25% 25%;
+    }
+    .bothside{
+        align-items: center;
+        padding-inline: 0px;
+    }
+    .hero-left{
+        width: 100%;
+    }
+    .iphones{
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        padding-inline: 0;
+    }
+    .hero5{
+        padding-inline: 0;
+    }
+}
